@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-image: url(./img/the_handsome_one.png);
+    background-color: blanchedalmond;
+    background-size: contain;
+    background-repeat: round;    
+}
+
+    .container {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1200px) / 2);
+    } 
+        header {
+            display: inline-block;
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+            }
+            .botnik {
+                display: inline-block;
+                float: right;
+                height: 70px;
+                width: 800px;
+                opacity: 1;
+                margin-left: calc((100% - 900px) / 2);
+                margin-top: 30px;
+                /* position: relative; */
+                }
+            .botnik_logo {
+                display: inline-block;
+                float: left;
+                height: 170px;
+                margin: 0;
+                /* position: relative; */
+                }
+            .banner {
+                display: inline-block;
+                float: right;
+                /* margin-top: 10px; */
+                margin-top: 30px;
+            }
+                .banner_link {
+                    display: inline-block;
+                    float: right;
+                    line-height: 20px;
+                    text-align: center;
+                    font-size: 26px;
+                    color: #343634;
+                    /* font-family: Grenze Gotisch; */
+                    font-family: Srisakdi;
+                    margin-left: 120px;
+                    padding: 10px;
+                }
+        main {
+            font-family: Grenze Gotisch;
+            color: #343634;
+        }
+            .HP_logo {
+                display: inline-block;
+                float: left;
+                width: 20%;
+                position: relative; /*might need to change this */
+            }        
+            main > h1 {
+                display: inline-block;
+                float: right;
+                width: 60%;
+                margin-top: 40px;
+                margin-bottom: 10px;
+                text-align: right;
+                font-size: 50px;
+            }
+            .chapter_navigation {
+                display: inline-block;
+                float: right;
+                width: 60%;
+                text-align: right;
+            }
+            main > nav > h2 {
+                display: inline-block;
+                float: right;
+                width: 40%;
+                font-size: 20px;
+                margin: 0;
+            }
+            main > nav > a {
+                display: inline-block;
+                float: right;
+                width: 100%;
+            }
+            main > h3 {
+                display: inline-block;
+                float: right;
+                width: 60%;
+                text-align: right;
+                font-size: 30px;
+            }
+            aside {
+                display: inline-block;
+                float: left;
+                width: 13%;
+                padding-right: 10px;
+                margin-left: 10px;
+            }
+            table, th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+                
+                
+        background-color: #D9D6CE;
